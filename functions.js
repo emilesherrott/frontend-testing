@@ -1,9 +1,8 @@
 const findLargest = (arr) => {
-
     if(!arr || arr.length == 0) {
         return -1
     }
-
+    
     let largest = arr[0]
     let largestIndex = 0
 
